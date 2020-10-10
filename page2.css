@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body{
+    padding: 0 10px;
+  }
+
+  .header{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    /* margin-top: 30px auto; */
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    padding: 10px;
+  }
+
+  .grid-container h4 {
+    color:gray;
+    font-size: 20px;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+  
+  hr{
+    width: 75%;
+    margin: auto;
+    color: gray;
+  }
+
+
+button{
+    background-color: dodgerblue;
+    font-size: 15px;
+    color:white;
+    border: none;
+    padding:5px;
+    border-radius: 3px;
+}
+
+.mid{
+  
+  margin: 20px auto;
+  width: 50%;
+  padding: 100px;
+  background-color: lightgray;
+}
+
+.colpas{
+
+  margin: 20px auto;
+  display: grid;
+  width: 50%;
+  grid-template-columns: auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 10px;
+  padding: 10px;
+}
+
+.colpas,h4{
+  margin-bottom: 10px;
+}
+
+.colpas p{
+  text-align: left;
+  margin-bottom:10px;
+}
+
+
+
+
+.mid h1,p,.btn_container{
+  text-align: center;
+}
+
+
+
+.launch_btn{
+  width: fit-content;
+  padding: 5px;
+  margin:15px auto;
+  background-color: blue;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+}
+
+
+.signup_btn{
+  width: fit-content;
+  padding: 5px;
+  margin:20px auto;
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+}
+
+
+
+ 
